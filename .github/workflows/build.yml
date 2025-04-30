@@ -20,7 +20,7 @@ permissions:
 jobs:
   migrations:
     name: Run Migrations
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
