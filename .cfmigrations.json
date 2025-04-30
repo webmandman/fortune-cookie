@@ -8,12 +8,12 @@
             "schema": "${DB_SCHEMA}",
             "migrationsTable": "cfmigrations",
             "connectionInfo": {
-                "DB_DRIVER":"postgresql",
-                "DB_HOST":"boxlang-fortune-cookie-1.ct2mgg8ear8b.us-east-1.rds.amazonaws.com",
-                "DB_PORT":"5432",
-                "DB_DATABASE":"fortunecookies",
-                "DB_USER":"main",
-                "DB_PASSWORD":"a6u4UHti-R!3*s$gZc9p]D8m#Bj6"
+                "driver":"${DB_DRIVER}",
+                "host":"${DB_HOST}",
+                "port":"${DB_PORT}",
+                "database":"${DB_DATABASE}",
+                "username":"${DB_USER}",
+                "password":"${DB_PASSWORD}"
             }
         }
     }
