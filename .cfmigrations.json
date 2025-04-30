@@ -9,6 +9,7 @@
             "migrationsTable": "cfmigrations",
             "connectionInfo": {
                 "driver":"${DB_DRIVER}",
+                "type":"${DB_DRIVER}",
                 "host":"${DB_HOST}",
                 "port":"${DB_PORT}",
                 "database":"${DB_DATABASE}",
