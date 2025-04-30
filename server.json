@@ -11,6 +11,6 @@
         "BOXLANG_DEBUG":true
     },
     "scripts":{
-        "onServerInstall":"install bx-compat-cfml,bx-esapi,bx-mysql"
+        "onServerInstall":"install bx-compat-cfml,bx-esapi,bx-postgres"
     }
 }
