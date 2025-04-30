@@ -45,7 +45,7 @@
 </head>
 <body class="w-screen h-screen overflow-x-hidden flex flex-col items-center p-32">
 	<div x-data="fortuneApp" class="flex flex-col text-xl items-center">
-		<h1 class="mb-8">Fortune Cookie App</h1>
+		<h1 class="mb-8">Fortune Cookie Teller App</h1>
 		<div class="flex flex-col items-center gap-8">
 			<div class="flex items-center jutify-center w-64 h-64">
 				<p class="text-base w-64 text-center" x-text="fortune.fortune"></p>
